@@ -1,0 +1,77 @@
+p{
+    background-image:url('https://www.iconspng.com/images/cute-little-black-cat.jpg');
+    color: rgb(26, 28, 61);
+    background-color: rgba(24, 51, 23, 0.623);
+    font-family: cursive;
+    font-size:x-large;
+    font-weight: 500;
+   line-height: 80px;
+   width:1560px;
+   border-style:outset;
+   border-color:darkgray;
+   
+}
+
+#first{
+   font-weight: 1000;
+   font-size:50px;
+   background-color: rgb(105, 143, 143);
+   font-family: Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif; 
+     line-height: 100px;
+     width: 1560px;
+     border-style:solid;
+     border-color:darkolivegreen;
+    color:brown
+    
+    
+}
+th{
+    padding-left: 20px;
+}
+
+td{
+    padding-left: 30px;
+}
+h6{
+    font-family: cursive;
+    color: rebeccapurple;
+    padding-left: 20px;
+}
+
+h5 {
+    font-family: cursive;
+    color: rgb(201, 93, 93);
+    padding-left: 20px;
+}
+h4 {
+    font-family: cursive;
+    color: rgb(112, 112, 72);
+    padding-left: 20px;
+}
+#menu{
+    font-family: cursive;
+     background-color: beige;
+    color:darkslateblue;
+    width: fit-content;
+    border-style: solid;
+    
+}
+h2 {
+    font-family: cursive;
+    padding-left: 20px;
+}
+#customer{
+    background-color: rgb(167, 167, 167);
+    height: 40px;
+    width: fit-content;
+    font-family: cursive;
+    font-weight: 25 ;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 3px;
+}
+#comment{
+    height: fit-content;
+    font-weight: 100;
+    font-size: x-large;
+}
