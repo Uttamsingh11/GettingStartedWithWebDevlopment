@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --navbar-height: 59px
+}
+html{
+    scroll-behavior: smooth ;
+}
+#logo{
+margin: 0px 24px;
+}
+#logo img{
+margin:0px 32px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+#navbar{
+    position: absolute;
+}
+#navbar ul li a{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);;
+    background-color: rgb(19, 19, 19);
+    font-size: 20px;
+    display: block;
+    margin: 8px 8px;
+    padding: 3px 8px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#home{
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background-color: black;
+    background: url('../img/mus.jpg');
+    position: absolute;
+    height: 125%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+.h-primary{
+    font-size: 3rem;
+    padding: 12px;
+}
+.h-secondry{
+    font-size: 2rem;
+    padding: 12px;
+}
+#home h1{
+    color: rgb(248, 246, 248);
+    text-align: center;
+    font-family: cursive;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    align-items: center;
+
+}
+.btn{
+    padding: 4px 20px;
+    border: 2px solid white;
+    background-color: rgb(214, 208, 200);
+    margin: 10px 20px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(221, 198, 198);
+}
+.center{
+    text-align: center;
+}
+.services{
+    margin: 34px;
+    display: flex;
+}
+.box img{   
+    height: 250px;
+    width: 470px;
+    margin: auto;
+    display: block;
+}
+.services .box{
+    border: 2px solid brown;   
+    margin: 100px 1px;
+    width:fit-content;
+    padding: 10px 3px;
+    border-radius: 12px;
+    background-color: rgb(207, 201, 192);
+    padding-left: 2px;
+                 
+}
+.service-container::before{
+    content: "";
+    background: url('../img/interior.jpg');  
+    position: absolute;
+    height: 115%;
+    width: 100%;
+    padding-left: 2px;
+    z-index: -1;
+    opacity: 1;
+}
+.contact{
+    content: "";
+    background: url('../img/ford-mustang-2020-car.jpg');  
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+.contact .h-primary{  
+    margin-top: 20px;  
+    margin-left: 200px;
+    color: rgb(245, 245, 245);
+    font-family: cursive;
+    font-size: 2.4rem;
+    border: 0.1px solid white;
+    width: fit-content;
+    border-radius: 8px;
+}
+.contact-box{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding-bottom: 14px;
+}
+.contact-box input,
+.contact-box textarea{
+    width: 20%;
+    padding: 0.5rem;
+    color: aliceblue;
+}
+.container button{
+    display: block;
+    width: 50%;
+    margin: 2px auto;
+    padding: 6px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.container button:hover{
+    cursor: pointer;
+}
+.form input{
+    display: block;
+    text-align: center;
+    width: 59%;
+    font-size: 15px;
+    padding: 7px;
+    margin: 4px auto;
+    border-radius: 12px;
+    font-family: cursive;
+    color: black;
+    background-color: rgb(219, 219, 219);
+
+}
+.container{
+    border: 2px solid rgb(117, 117, 117);
+    width: 25%;
+    margin: 10px 80px;
+    padding: 50px;
+    border-radius: 20px;
+
+}
